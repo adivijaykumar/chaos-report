@@ -1,0 +1,33 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Contents}{i}{dummy.1}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Outline and Description}{2}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Setting up the Machinery}{3}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Hamiltonian Dynamics}{3}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Canonical Transformations}{4}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Lorenz System of Differential Equations and the Lorenz Attractor}{5}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}A Few Properties}{5}{section.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Numerical Solution}{6}{section.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}The Logistic Map}{9}{chapter.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}The Map}{9}{section.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Preliminary Numerics}{9}{section.18}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{12}{dummy.22}

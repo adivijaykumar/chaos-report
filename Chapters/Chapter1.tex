@@ -1,0 +1,41 @@
+% Chapter 1
+
+\chapter{Introduction} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 1. \emph{Introduction}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+It is a triumph of physics and its practitioners that we can reproduce the dynamics of extremely complex systems using mathematical equations. The problem, however, is that most of the governing equations of these complex systems are highly nonlinear, and often coupled differential equations. This makes it very difficult for us to solve the systems in question exactly, 
+
+But this was not entirely unexpected. It is easy to notice that most systems that we come across in day-to-day life are not simple systems. Something as basic as the simple pendulum does not follow $\ddot{\theta} + \omega^2\theta = 0$ if $\theta$ is large (higher order corrections to $\theta$ starts dominating). This tells us that even the most basic of the systems have to be nonlinear.
+
+In-principle, the state of a system at present is completely determined by initial conditions. Such systems are called \textit{deterministic system}. So for different initial conditions, we could have trajectories that diverge exponentially faster from each other in time. Such systems are said to be \textit{chaotic systems}. Let's say $\delta x$ be the separation between two trajectories. We can then give a rough mathematical definition of complexity as follows
+$$\delta x(t) = \exp{\lambda t} \ \delta x(0)$$
+The $\lambda$ in the exponent is called the \textit{Lyapunov exponent}. This quantifies the speed at which the systems moves towards chaos - a higher $\lambda$ means that the system will go to chaos faster.
+
+In this thesis, we shall explore different aspects of chaos in different physical systems. Broadly, we shall divide the systems that we'll consider into \textit{classical} and \textit{quantum} systems. We shall consider some specific cases in each of these, and get into the depth of it.
+
+\newpage
+
+\section{Outline and Description}
+We give a brief outline description of each of the cases that we are going to consider in this thesis :-
+\begin{itemize}
+	\item \textbf{Settting up the Machinery} - we shall set up the basic analytic and numerical machinery used for calculating various quantities in chaotic systems. We shall first review a bit of Hamiltonian dynamics, and then look into mappings, Poincare sections, and also go into detail as to how one describes the stability of points and trajectories. We shall also see how we can use symbolic algebra and numerical softwares to get an idea of the dynamics of chaotic systems.
+	
+	\item \textbf{The Logistic Map} - The Logistic Map is a simple map of degree two, which is astoundingly effective while studying population dynamics and epidemic growth. It also holds immense interest from a mathematical point of view and will also be a useful tool when we discuss some aspects of chaos in quantum systems. We write down the logistic map and derive the stable points of the systems. We see that the system inherently gives rise to a \textit{bifurcation diagram} in phase space, which will show clear signatures of chaotic dynamics.
+	
+	\item \textbf{Lorenz System of Differential Equations and the Lorenz Attractor} - The Lorenz system is probably the most well illustrated system of deterministic chaos. It was initially written down to describe the dynamics of convective atmosphere currents, but has found applications in other fields as well. We shall start with defining the system, and doing an analysis of the form of the equations, the parameters involved, and a stability analysis. We shall then evaluate the system numerically and show that it indeed is chaotic.
+	
+	\item \textbf{Miscellaneous Systems in Classical Chaos} - We shall define a few systems of our own, and try to study their classical chaotic dynamics using numerical methods.
+	
+	\item \textbf{Quantum Chaos} - We look at how chaos arises in quantum system, and investigate the link between a classically chaotic system and the quantum spectrum of the system.
+	
+	\item \textbf{A Bound on Chaos} - We study the conjecture by Maldacena, Stanford and Shenker \cite{Maldacena:2015waa} which gives an upper limit to how fast chaos can grown in a quantum chaotic system. We see that this bound is exactly satisfied for black holes.
+	
+	\item \textbf{Chaos in Quantum Channels} - We study the growth of chaos in a quantum information perspective \cite{Hosur:2015ylk}, and try to define an independent information theoretic definition of chaos, referring to 
+	
+\end{itemize}
+
+

@@ -1,0 +1,33 @@
+% Chapter Template
+
+\chapter{Setting up the Machinery} % Main chapter title
+
+\label{ChapterX} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapter 2. \emph{Setting up the Machinery}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+Since this chapter is mostly a review, we have borrowed from \cite{strogatz_2015}, \cite{tabor_1989} and \cite{ott_2008} 
+\section{Hamiltonian Dynamics}
+Given a Hamiltonian $H(q,p)$, one can write down Hamilton's equations of motion as follows
+
+$$\dot{q_i} = \frac{\partial H}{\partial p_i}, \ \dot{p_i} = -\frac{\partial H}{\partial q_i} $$
+
+Here, $q_i$ and $p_i$ are said to be phase space coordinates, and $x=(q,p)$ with $q=(q_1,q_2,\ldots,q_N)$ and $p=(p_1,p_2,\ldots,P_N)$ is said to be a point in phase space. We can see that Hamilton's equation indeed gives the path in time of the dynamical system in the phase space. One can write Hamilton's equation in vector form as
+$$\dot{x_i} = \omega_{ij} \frac{\partial H(x)}{\partial x_j}, \ \omega = \left(\begin{array}{cc} 0 & I\\ -I & 0 \end{array}\right)$$
+where $I$ is the identity matrix in the applicable dimension.
+
+Note that we have chosen $H$ only to be a function of $q$ and $p$. $q$ and $p$ are functions of time $t$, but in our construction, the Hamiltonian is independent of time. The explicit time-dependence of the Hamiltonian is an important check to see if the system is conservative or non-conservative. We can see this in the following way, by assuming $H$ to be a function of $t$ as well.
+$$\frac{d}{dt}H(q,p,t)=\frac{\partial H}{\partial q}\dot{q} + \frac{\partial H}{\partial p}\dot{p} + \frac{\partial H}{\partial t}$$
+If $H$ is not a function of $t$, the first two terms cancel, and hte third term goes to zero, which gives us the identity that $\frac{d}{dt}H(q,p,t)=0$. This means that the phase space trajectories lie of curves of constant energy $E$. Thus, for the specific case of single degree of freedom systems, we can say that the dynamical system described by $H$ is integrable.
+
+\section{Canonical Transformations}
+We have been used to interpreting $q$ and $p$ as position and momentum respectively, but it is important in chaotic dynamics to abandon this notion and think of it just as variables in the phase space. In principle, we can work with new variables which are functions of the old variables, provided that this change obeys Hamilton's equations. These new variables are called canoncical variables, and the corresponding transformations are called \textit{canonical transformations}.
+
+Consider,
+$$\tilde{q} = f(q,p,t), \ \tilde{p}=g(q,p,t)$$
+Corresponding to this, one could write the equations of motion as,
+$$\frac{d\tilde{q}}{dt} = \frac{\partial \tilde{H}}{\partial p}, \ \ \frac{d\tilde{p}}{dt}=-\frac{\partial \tilde{H}}{\partial q}$$
+where $\tilde{H} = \tilde{H}(\tilde{q},\tilde{p},t)$ is the Hamiltonian of the systems under the transformation.
+
+%Fixed Points
+%Limit Cycles

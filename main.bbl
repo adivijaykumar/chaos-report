@@ -1,0 +1,176 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Hosur:2015ylk}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Hosur}{H.}%
+     {Pavan}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Qi}{Q.}%
+     {Xiao-Liang}{X.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roberts}{R.}%
+     {Daniel~A.}{D.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yoshida}{Y.}%
+     {Beni}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HP+1}
+  \strng{fullhash}{HPQXLRDAYB1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb 10.1007/JHEP02(2016)004
+  \endverb
+  \verb{eprint}
+  \verb 1511.04021
+  \endverb
+  \field{pages}{004}
+  \field{title}{{Chaos in quantum channels}}
+  \field{volume}{02}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-th}
+  \field{year}{2016}
+\endentry
+
+\entry{lorenz_1963}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lorenz}{L.}%
+     {Edward~N.}{E.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LEN1}
+  \strng{fullhash}{LEN1}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1175/1520-0469(1963)020<0130:dnf>2.0.co;2
+  \endverb
+  \field{number}{2}
+  \field{pages}{130–141}
+  \field{title}{Deterministic Nonperiodic Flow}
+  \field{volume}{20}
+  \field{journaltitle}{Journal of the Atmospheric Sciences}
+  \field{year}{1963}
+\endentry
+
+\entry{Maldacena:2015waa}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Maldacena}{M.}%
+     {Juan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shenker}{S.}%
+     {Stephen~H.}{S.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stanford}{S.}%
+     {Douglas}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MJSSHSD1}
+  \strng{fullhash}{MJSSHSD1}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 10.1007/JHEP08(2016)106
+  \endverb
+  \verb{eprint}
+  \verb 1503.01409
+  \endverb
+  \field{pages}{106}
+  \field{title}{{A bound on chaos}}
+  \field{volume}{08}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-th}
+  \field{year}{2016}
+\endentry
+
+\entry{ott_2008}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ott}{O.}%
+     {Edward}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge Univ. Press}%
+  }
+  \strng{namehash}{OE1}
+  \strng{fullhash}{OE1}
+  \field{sortinit}{O}
+  \field{title}{Chaos in dynamical systems}
+  \field{year}{2008}
+\endentry
+
+\entry{strogatz_2015}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Strogatz}{S.}%
+     {Steven~H.}{S.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {WestviewPress}%
+  }
+  \strng{namehash}{SSH1}
+  \strng{fullhash}{SSH1}
+  \field{sortinit}{S}
+  \field{title}{Nonlinear Dynamics and Chaos: With Applications to Physics,
+  Biology, Chemistry, and Engineering}
+  \field{year}{2015}
+\endentry
+
+\entry{tabor_1989}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tabor}{T.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley}%
+  }
+  \strng{namehash}{TM1}
+  \strng{fullhash}{TM1}
+  \field{sortinit}{T}
+  \field{title}{Chaos and integrability in nonlinear dynamics: an introduction}
+  \field{year}{1989}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
