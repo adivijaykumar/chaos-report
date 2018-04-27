@@ -26,8 +26,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Preliminary Numerics}{9}{section.18}
 \defcounter {refsection}{0}\relax 
-\vspace {2em}
+\contentsline {chapter}{\numberline {5}A Bound on Chaos}{12}{chapter.22}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{12}{dummy.22}
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{13}{dummy.23}

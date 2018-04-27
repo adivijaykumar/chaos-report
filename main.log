@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.8)  18 MAR 2018 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.8)  27 APR 2018 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1287,46 +1287,6 @@ Package biblatex Info: Reference section=0 on input line 42.
 Package biblatex Info: Reference segment=0 on input line 42.
  (./variables.tex)
 ------------------------------------------------------------------------------
- Title Page
-------------------------------------------------------------------------------
-! Undefined control sequence.
-<recently read> \cosupname 
-                           
-l.62 \maketitle
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 \maketitle
-               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<Figures/bits-logo.pdf, id=56, 173.54195pt x 174.3672pt>
-File: Figures/bits-logo.pdf Graphic file (type pdf)
-
-<use Figures/bits-logo.pdf>
-Package pdftex.def Info: Figures/bits-logo.pdf used on input line 62.
-(pdftex.def)             Requested size: 173.54152pt x 174.36678pt.
- [1
-
-\openout3 = `main.ist'.
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/bits-logo.pdf>]
-------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
 (./main.toc
@@ -1350,8 +1310,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
  [1
 
-]
-(./Chapters/Chapter1.tex
+\openout3 = `main.ist'.
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
@@ -1383,7 +1346,7 @@ Chapter 3.
 ------------------------------------------------------------------------------
 [5
 
-] <Figures/dyvar_vs_t.png, id=130, 507.8975pt x 321.2pt>
+] <Figures/dyvar_vs_t.png, id=123, 507.8975pt x 321.2pt>
 File: Figures/dyvar_vs_t.png Graphic file (type png)
 
 <use Figures/dyvar_vs_t.png>
@@ -1393,7 +1356,7 @@ Package pdftex.def Info: Figures/dyvar_vs_t.png used on input line 41.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/delta_trajectory.png, id=132, 511.9125pt x 321.2pt>
+<Figures/delta_trajectory.png, id=125, 511.9125pt x 321.2pt>
 File: Figures/delta_trajectory.png Graphic file (type png)
 
 <use Figures/delta_trajectory.png>
@@ -1403,7 +1366,7 @@ Package pdftex.def Info: Figures/delta_trajectory.png used on input line 50.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] <Figures/3d_trajectory.png, id=142, 413.545pt x 402.50375pt>
+[6] <Figures/3d_trajectory.png, id=136, 413.545pt x 402.50375pt>
 File: Figures/3d_trajectory.png Graphic file (type png)
 
 <use Figures/3d_trajectory.png>
@@ -1415,7 +1378,7 @@ Chapter 4.
 ------------------------------------------------------------------------------
  4 The Logistic Map
 ------------------------------------------------------------------------------
-<Figures/rle1.png, id=156, 405.515pt x 266.9975pt>
+<Figures/rle1.png, id=151, 405.515pt x 266.9975pt>
 File: Figures/rle1.png Graphic file (type png)
  <use Figures/rle1.png>
 Package pdftex.def Info: Figures/rle1.png used on input line 25.
@@ -1424,7 +1387,7 @@ Package pdftex.def Info: Figures/rle1.png used on input line 25.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/rinbetween.png, id=158, 392.46625pt x 266.9975pt>
+<Figures/rinbetween.png, id=153, 392.46625pt x 266.9975pt>
 File: Figures/rinbetween.png Graphic file (type png)
 
 <use Figures/rinbetween.png>
@@ -1432,14 +1395,21 @@ Package pdftex.def Info: Figures/rinbetween.png used on input line 33.
 (pdftex.def)             Requested size: 313.9734pt x 213.59827pt.
  [9
 
-] [10 <./Figures/rle1.png> <./Figures/rinbetween.png>] <Figures/r38.png, id=176
+] [10 <./Figures/rle1.png> <./Figures/rinbetween.png>] <Figures/r38.png, id=171
 , 392.46625pt x 266.9975pt>
 File: Figures/r38.png Graphic file (type png)
 
 <use Figures/r38.png>
 Package pdftex.def Info: Figures/r38.png used on input line 43.
 (pdftex.def)             Requested size: 313.9734pt x 213.59827pt.
-) [11 <./Figures/r38.png>]
+) (./Chapters/Chapter6.tex [11 <./Figures/r38.png>]
+Chapter 5.
+------------------------------------------------------------------------------
+ 5 A Bound on Chaos
+------------------------------------------------------------------------------
+) [12
+
+]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -1453,7 +1423,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-[12
+[13
 
 
 ]
@@ -1462,7 +1432,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C26625ED844CEE656966139355393C15;2233.
+(rerunfilecheck)             Checksum: 60C01000381B2EB236389FC923432050;2380.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1474,13 +1444,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  )
 (\end occurred when \iftrue on line 42 was incomplete) 
 Here is how much of TeX's memory you used:
- 23449 strings out of 493029
- 357169 string characters out of 6136235
+ 23431 strings out of 493029
+ 356878 string characters out of 6136235
  756392 words of memory out of 5000000
- 26451 multiletter control sequences out of 15000+600000
- 22693 words of font info for 121 fonts, out of 8000000 for 9000
+ 26439 multiletter control sequences out of 15000+600000
+ 21102 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,12n,77p,1938b,1060s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,77p,1938b,1034s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/
@@ -1490,16 +1460,14 @@ c/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (14 pages, 475567 bytes).
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (14 pages, 419353 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
- 25740 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 19087 words of extra memory for PDF output out of 20736 (max. 10000000)
 
